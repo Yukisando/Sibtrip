@@ -381,6 +381,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &157579416 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1758735179846122, guid: 72c97ae3de71a8f46a4527e06a12b7c9, type: 3}
+  m_PrefabInstance: {fileID: 232564396}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &229894123
 GameObject:
   m_ObjectHideFlags: 0
@@ -1131,7 +1136,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1017574487}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f226576cb826384e9a7f5bed9bee9ea, type: 3}
+  m_Script: {fileID: 11500000, guid: a14e1daf18c403e47b94378ca1724adb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1152848707
@@ -1226,7 +1231,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1152848707}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f226576cb826384e9a7f5bed9bee9ea, type: 3}
+  m_Script: {fileID: 11500000, guid: a14e1daf18c403e47b94378ca1724adb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1275115690
@@ -1388,6 +1393,11 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 114151230620378548, guid: d0c83380b65798f46b187efd5c2121fd, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d0c83380b65798f46b187efd5c2121fd, type: 3}
+--- !u!1 &1326950343 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1595941496695260, guid: d0c83380b65798f46b187efd5c2121fd, type: 3}
+  m_PrefabInstance: {fileID: 1293073220}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1338614753
 GameObject:
   m_ObjectHideFlags: 0
@@ -1743,7 +1753,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1502303656}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f226576cb826384e9a7f5bed9bee9ea, type: 3}
+  m_Script: {fileID: 11500000, guid: a14e1daf18c403e47b94378ca1724adb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1519277980
@@ -2131,9 +2141,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 2000558476}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50675e2a60e9023438efecc1e201725a, type: 3}
+  m_Script: {fileID: 11500000, guid: 41dbca3906b144f409e84d5b31c7845e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resetGame: 0
+  pauline: {fileID: 1326950343}
+  adrien: {fileID: 157579416}
+  clips:
+  - {fileID: 8300000, guid: c160ab9f35f509148b13d3133e698a9f, type: 3}
+  - {fileID: 8300000, guid: ca28f2173ce758f45a025f72761a3056, type: 3}
+  respawnDelay: 2
+  replay: 0
+  _friendlyFire: 1
 --- !u!82 &2000558479
 AudioSource:
   m_ObjectHideFlags: 0
