@@ -1,0 +1,1893 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"const",
+				"constantForce\tComponent { get; }"
+			],
+			[
+				"Translate",
+				"Translate(float x, float y, float z, Space relativeTo)\tvoid"
+			],
+			[
+				"play",
+				"Play()\tvoid"
+			],
+			[
+				"getcom",
+				"GetComponent<T>()\tT"
+			],
+			[
+				"Scene",
+				"SceneManager\tSceneManager"
+			],
+			[
+				"_touching",
+				"_touchingPickup"
+			],
+			[
+				"start",
+				"StartCoroutine(IEnumerator routine)\tCoroutine"
+			],
+			[
+				"waitfo",
+				"WaitForSeconds\tWaitForSeconds"
+			],
+			[
+				"trigg",
+				"TriggerHapticPulse(ushort durationMicroSec = 500, EVRButtonId buttonId = EVRButtonId.k_EButton_Axis0)\tvoid"
+			],
+			[
+				"_gold",
+				"_goldKeyHole"
+			],
+			[
+				"Getcom",
+				"GetComponent<T>()\tT"
+			],
+			[
+				"AI",
+				"AI_RACE"
+			],
+			[
+				"DS4_",
+				"DS4_2_Synth"
+			],
+			[
+				"OS",
+				"OSC_MIXER"
+			],
+			[
+				"Inkwell",
+				"INKWELL"
+			],
+			[
+				"Shoot",
+				"ShooterHero"
+			],
+			[
+				"DS",
+				"DS4_2_Synth"
+			],
+			[
+				"col",
+				"col-lg-6"
+			],
+			[
+				"m",
+				"SmoothDamp(Vector3 current, Vector3 target, ref Vector3 currentVelocity, float smoothTime)\tVector3"
+			],
+			[
+				"RayCas",
+				"RaycastHit\tRaycastHit"
+			],
+			[
+				"ray",
+				"RaycastAll(Ray ray)\tRaycastHit[]"
+			],
+			[
+				"touch",
+				"touchPosition"
+			],
+			[
+				"hi",
+				"hit.textureCoord.x"
+			],
+			[
+				"nam",
+				"name\tstring { get; set; }"
+			],
+			[
+				"pick",
+				"pickupAudio"
+			],
+			[
+				"show",
+				"showspectrum"
+			],
+			[
+				"Pr",
+				"ProjectOnPlane(Vector3 vector, Vector3 planeNormal)\tVector3"
+			],
+			[
+				"pl",
+				"ProjectOnPlane(Vector3 vector, Vector3 planeNormal)\tVector3"
+			],
+			[
+				"detected",
+				"detectedObject"
+			],
+			[
+				"sphere",
+				"OverlapSphere(Vector3 position, float radius)\tCollider[]"
+			],
+			[
+				"desi",
+				"destinations"
+			],
+			[
+				"Con",
+				"Concat(IEnumerable<TSource> second)\tIEnumerable<TSource>"
+			],
+			[
+				"des",
+				"destinations"
+			],
+			[
+				"Datetime",
+				"DateTimeFormatInfo\tDateTimeFormatInfo"
+			],
+			[
+				"Datetim",
+				"DateTimeFormatInfo\tDateTimeFormatInfo"
+			],
+			[
+				"emit",
+				"Emit(EmitParams emitParams, int count)\tvoid"
+			],
+			[
+				"TextMEs",
+				"TextMeshPro"
+			],
+			[
+				"game",
+				"gameObject\tGameObject { get; }"
+			],
+			[
+				"IEnum",
+				"IEnumerator\tIEnumerator"
+			],
+			[
+				"is",
+				"activeSelf\tbool { get; }"
+			],
+			[
+				"findgame",
+				"FindGameObjectWithTag(string tag)\tGameObject"
+			],
+			[
+				"vet",
+				"Vector3\tVector3"
+			],
+			[
+				"tran",
+				"translate"
+			],
+			[
+				"trans",
+				"translate"
+			],
+			[
+				"VEco",
+				"Vector3()\tVector3()"
+			],
+			[
+				"Vector",
+				"Vector3()\tVector3()"
+			],
+			[
+				"rotat",
+				"rotationSpeed"
+			],
+			[
+				"Vecot",
+				"Vector3()\tVector3()"
+			],
+			[
+				"Findgam",
+				"FindGameObjectWithTag(string tag)\tGameObject"
+			],
+			[
+				"Unity",
+				"UnityEngine"
+			],
+			[
+				"Uni",
+				"UnityEngine"
+			],
+			[
+				"pikc",
+				"pickups"
+			],
+			[
+				"for",
+				"foreach\tforeach"
+			],
+			[
+				"Navm",
+				"NavMeshAgent\tNavMeshAgent"
+			],
+			[
+				"_tot",
+				"_totalGameTimeText"
+			],
+			[
+				"Res",
+				"ResetTouch"
+			],
+			[
+				"pre",
+				"preBoard"
+			],
+			[
+				"_las",
+				"_lastY"
+			],
+			[
+				"las",
+				"_lastX\tfloat"
+			],
+			[
+				"_colo",
+				"_color"
+			],
+			[
+				"set",
+				"SetSticker(Sprite img)\tvoid"
+			],
+			[
+				"_ler",
+				"_lerpResolution"
+			],
+			[
+				"Vec",
+				"Vector3"
+			],
+			[
+				"Vect",
+				"Vector3\tVector3"
+			],
+			[
+				"Vecto",
+				"Vector3()\tVector3()"
+			],
+			[
+				"pain",
+				"paintSize\tint"
+			],
+			[
+				"paint",
+				"_paintSize\tint"
+			],
+			[
+				"color",
+				"_colors\tColor[]"
+			],
+			[
+				"touchin",
+				"_touching\tbool"
+			],
+			[
+				"pos",
+				"posX"
+			],
+			[
+				"_pos",
+				"_posX"
+			],
+			[
+				"rend",
+				"Renderer\tRenderer"
+			],
+			[
+				"vecto",
+				"Vector3\tVector3"
+			],
+			[
+				"getcomo",
+				"GetComponent<T>()\tT"
+			],
+			[
+				"Combin",
+				"CombineMeshes"
+			],
+			[
+				"combin",
+				"combiners"
+			],
+			[
+				"fina",
+				"finalMesh"
+			],
+			[
+				"For",
+				"for\tfor"
+			],
+			[
+				"Combine",
+				"CombineInstance\tCombineInstance"
+			],
+			[
+				"GetCom",
+				"GetComponent<T>()\tT"
+			],
+			[
+				"touh",
+				"touchingWall"
+			],
+			[
+				"Col",
+				"Collider"
+			],
+			[
+				"tracked",
+				"trackedObj"
+			],
+			[
+				"eul",
+				"eulerAngles\tVector3 { get; set; }"
+			],
+			[
+				"Find",
+				"FindWithTag(string tag)\tGameObject"
+			],
+			[
+				"collision",
+				"Collision\tCollision"
+			],
+			[
+				"collis",
+				"collisionCount"
+			],
+			[
+				"reach",
+				"_reach\tfloat"
+			],
+			[
+				"vect",
+				"Vector3\tVector3"
+			],
+			[
+				"GetCo",
+				"GetComponent<T>()\tT"
+			],
+			[
+				"SetCol",
+				"SetColor(string name, Color value)\tvoid"
+			],
+			[
+				"_fade",
+				"_fadeSpeed"
+			],
+			[
+				"_fa",
+				"_fadeSpeed"
+			],
+			[
+				"fade",
+				"_fadeSpeed\tfloat"
+			],
+			[
+				"du",
+				"_duration\tfloat"
+			],
+			[
+				"vec",
+				"Vector3()\tVector3()"
+			],
+			[
+				"Coll",
+				"Collider\tCollider"
+			],
+			[
+				"get",
+				"GetMouseButtonDown(int button)\tbool"
+			],
+			[
+				"draw",
+				"DrawRay(Vector3 start, Vector3 dir, Color color, float duration, bool depthTest)\tvoid"
+			],
+			[
+				"scre",
+				"ScreenToWorldPoint(Vector3 position)\tVector3"
+			],
+			[
+				"d",
+				"collider\tCollider { get; }"
+			],
+			[
+				"k_eb",
+				"k_EButton_SteamVR_Touchpad\tEVRButtonId"
+			],
+			[
+				"k_EButton",
+				"k_EButton_Grip\tEVRButtonId"
+			],
+			[
+				"k_ebut",
+				"k_EButton_Grip\tEVRButtonId"
+			],
+			[
+				"trigger",
+				"triggerButtonPressed"
+			],
+			[
+				"Steam",
+				"SteamVR_TrackedObject"
+			],
+			[
+				"contact",
+				"contact.point"
+			],
+			[
+				"contac",
+				"contact.point"
+			],
+			[
+				"instan",
+				"Object.Instantiate(original)"
+			],
+			[
+				"Mono",
+				"MonoBehaviour"
+			],
+			[
+				"death",
+				"death_count"
+			],
+			[
+				"init",
+				"init_off_duration"
+			],
+			[
+				"volume",
+				"volume_melange"
+			],
+			[
+				"descrip",
+				"FieldDescription"
+			],
+			[
+				"tooltip",
+				"SerializedProperty.tooltip"
+			],
+			[
+				"warning",
+				"Debug.LogWarning(message)"
+			],
+			[
+				"debug",
+				"Debug.Log(message, context)"
+			],
+			[
+				"ball",
+				"ball_speed_max"
+			],
+			[
+				"level",
+				"level_2"
+			],
+			[
+				"Sound",
+				"SoundTrack"
+			],
+			[
+				"insta",
+				"Object.Instantiate(original)"
+			],
+			[
+				"deathcou",
+				"death_count_text"
+			],
+			[
+				"push",
+				"push_back\tfunc"
+			],
+			[
+				"player",
+				"player_controller"
+			],
+			[
+				"i-",
+				"I-fstream\tinc"
+			],
+			[
+				"int",
+				"init\tfunc"
+			],
+			[
+				"matfs",
+				"Mathf.Sin(f)"
+			],
+			[
+				"log",
+				"Debug.LogWarning(message)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Objects/Rotator.cs",
+			"settings":
+			{
+				"buffer_size": 315,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 576.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rebuild",
+				"OmniSharpSublime: ReBuild"
+			],
+			[
+				"omnisharp",
+				"OmniSharpSublime: Reload Solution"
+			],
+			[
+				"beaut",
+				"HTMLBeautify"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"beauti",
+				"HTMLBeautify"
+			],
+			[
+				"th",
+				"UI: Select Theme"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"them",
+				"UI: Select Theme"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"htm",
+				"HTMLBeautify"
+			],
+			[
+				"Lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"colo",
+				"UI: Select Color Scheme"
+			],
+			[
+				"lowe",
+				"Convert Case: Lower Case"
+			],
+			[
+				"equa",
+				"Snippet: Equation"
+			],
+			[
+				"frac",
+				"Snippet: fraction"
+			],
+			[
+				"show ",
+				"OmniSharpSublime: Show Info Panel"
+			],
+			[
+				"consol",
+				"Set Syntax: R Console"
+			],
+			[
+				"late",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"abs",
+				"Set Syntax: Bourne Again Shell (bash)"
+			],
+			[
+				"latex sy",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"emp",
+				"Snippet: Emphasize text"
+			],
+			[
+				"stat",
+				"View: Toggle Status Bar"
+			],
+			[
+				"begin",
+				"Snippet: \\begin{}…\\end{}"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"view",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"wrap",
+				"Snippet: Wrap selection in LaTeX command"
+			],
+			[
+				"statu",
+				"View: Toggle Status Bar"
+			],
+			[
+				"snippet",
+				"Snippet: comment_title"
+			],
+			[
+				"if",
+				"Snippet: Else If"
+			],
+			[
+				"for",
+				"Snippet: For"
+			],
+			[
+				"fore",
+				"Snippet: ForEach"
+			],
+			[
+				"uni",
+				"Set Syntax: Unity C#"
+			],
+			[
+				"c",
+				"Set Syntax: C#"
+			],
+			[
+				"foot",
+				"Snippet: footnote"
+			],
+			[
+				"item",
+				"Snippet: Itemize"
+			],
+			[
+				"fi",
+				"Snippet: figure"
+			],
+			[
+				"foo",
+				"Snippet: footnote"
+			],
+			[
+				"minima",
+				"View: Toggle Minimap"
+			],
+			[
+				"wor",
+				"LaTeXWordCount: Word Count"
+			],
+			[
+				"word",
+				"LaTeXWordCount: Word Count"
+			],
+			[
+				"bold",
+				"Snippet: Boldface text"
+			],
+			[
+				"snipp",
+				"Snippet: commenttitle"
+			],
+			[
+				"figure",
+				"Snippet: figure"
+			],
+			[
+				"settin",
+				"Preferences: Settings"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"em",
+				"Snippet: Emphasize text"
+			],
+			[
+				"fooot",
+				"Snippet: footnote"
+			],
+			[
+				"reve",
+				"File: Reveal"
+			],
+			[
+				"footn",
+				"Snippet: footnote"
+			],
+			[
+				"itemi",
+				"Snippet: Itemize"
+			],
+			[
+				"imte",
+				"Snippet: Monospace text"
+			],
+			[
+				"wo",
+				"LaTeXWordCount: Word Count"
+			],
+			[
+				"snippet cite",
+				"Snippet: comment_title"
+			],
+			[
+				"emph",
+				"Snippet: Emphasize text"
+			],
+			[
+				"epha",
+				"Snippet: Emphasize text"
+			],
+			[
+				"fo",
+				"Snippet: footnote"
+			],
+			[
+				"ite",
+				"Snippet: Itemize"
+			],
+			[
+				"empha",
+				"Snippet: Emphasize text"
+			],
+			[
+				"word c",
+				"LaTeXWordCount: Word Count"
+			],
+			[
+				"case",
+				"Snippet: Case"
+			],
+			[
+				"swit",
+				"Snippet: Switch"
+			],
+			[
+				"sta",
+				"View: Toggle Status Bar"
+			],
+			[
+				"quote",
+				"Snippet: quotes"
+			],
+			[
+				"vi",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"check",
+				"LaTeXTools: Check system"
+			],
+			[
+				"atex",
+				"LaTeXTools: Check system"
+			],
+			[
+				"the",
+				"UI: Select Theme"
+			],
+			[
+				"unit",
+				"Set Syntax: Unity C#"
+			],
+			[
+				"c#",
+				"Set Syntax: C#"
+			],
+			[
+				"sche",
+				"DA UI: Color Scheme Settings"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"unity",
+				"Set Syntax: Unity C#"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"stats",
+				"View: Toggle Status Bar"
+			],
+			[
+				"add",
+				"Set Syntax: Rd (R Documentation)"
+			],
+			[
+				"status",
+				"View: Toggle Status Bar"
+			],
+			[
+				"pacak",
+				"View Package File"
+			],
+			[
+				"reload",
+				"OmniSharpSublime: Reload Solution"
+			],
+			[
+				"omnish",
+				"OmniSharpSublime: Reload Solution"
+			],
+			[
+				"show",
+				"OmniSharpSublime: Show Server Output"
+			],
+			[
+				"info",
+				"OmniSharpSublime: Show Info Panel"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"omni",
+				"OmniSharpSublime: Reload Solution"
+			],
+			[
+				"rebui",
+				"OmniSharpSublime: ReBuild"
+			],
+			[
+				"omnisharpinf",
+				"OmniSharpSublime: Show Info Panel"
+			],
+			[
+				"rebuil",
+				"OmniSharpSublime: ReBuild"
+			],
+			[
+				"build",
+				"OmniSharpSublime: ReBuild"
+			],
+			[
+				"relos",
+				"OmniSharpSublime: Reload Solution"
+			],
+			[
+				"reui",
+				"OmniSharpSublime: ReBuild"
+			],
+			[
+				"relo",
+				"OmniSharpSublime: Reload Solution"
+			],
+			[
+				"solution",
+				"OmniSharpSublime: Reload Solution"
+			],
+			[
+				"omnisha",
+				"OmniSharpSublime: ReBuild"
+			],
+			[
+				"omnis",
+				"OmniSharpSublime: Reload Solution"
+			],
+			[
+				"fix",
+				"OmniSharpSublime: Fix Code Issue"
+			],
+			[
+				"omnishar",
+				"OmniSharpSublime: Show Server Output"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"keybin",
+				"Preferences: Key Bindings"
+			],
+			[
+				"C++",
+				"Set Syntax: C++11"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"olor",
+				"UI: Select Color Scheme"
+			],
+			[
+				"brow",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"setti",
+				"Preferences: Settings"
+			],
+			[
+				"materi",
+				"Material Theme: Advanced configuration"
+			],
+			[
+				"thee",
+				"Material Theme: Advanced configuration"
+			],
+			[
+				"teh",
+				"UI: Select Theme"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"instr",
+				"Preferences: LaTeXing Settings - User"
+			],
+			[
+				"STATU",
+				"View: Toggle Status Bar"
+			],
+			[
+				"COLOR",
+				"UI: Select Color Scheme"
+			],
+			[
+				"tab",
+				"View: Toggle Tabs"
+			],
+			[
+				"tba",
+				"View: Toggle Side Bar"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"text",
+				"LaTeXing: Check System"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"clear",
+				"Bookmarks: Clear All"
+			],
+			[
+				"format",
+				"FormatLua: Format Lua code"
+			],
+			[
+				"fomr",
+				"File: Copy Path From Project"
+			]
+		],
+		"width": 672.0
+	},
+	"console":
+	{
+		"height": 1213.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"help",
+			"2+2",
+			"dir",
+			"ls",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": true,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": false,
+		"status_bar_visible": true
+	},
+	"expanded_folders":
+	[
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Project Sydney/Assets/Scripts",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Project Sydney/Assets/Scripts/Attacks",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Project Sydney/Assets/Scripts/Enemies",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Project Sydney/Assets/Scripts/Players",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Project Sydney/Assets/Scripts/Tools"
+	],
+	"file_history":
+	[
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Tools/Bootybounce.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Project Sydney/Assets/Scripts/Attacks/Fireball.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Project Sydney/Assets/Scripts/Enemies/Giraffe.cs",
+		"/C/Program Files/Epic Games/Fortnite/FortniteGame/Binaries/Win64/EasyAntiCheat/Launcher/Settings.json",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Project",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Project Sydney/Sydney/Assets/Scripts/Players/Character.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Project Sydney/Sydney/Assets/Scripts/Enemies/Giraffe.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Project Sydney/Project Sydney.sln",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Project Sydney/Assets/Scripts/Enemies/EnemyMovement.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Project Sydney/Assets/Scripts/Players/AdrienMovement.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Project Sydney/Assets/Scripts/Enemies/Gorila.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Project Sydney/Sydney/Assets/Scripts/Enemies/Gorila.cs",
+		"/C/Users/natha/OneDrive/Dev/Tools/Softwares/Sublime_Text/Data/Packages/User/OmniSharpSublime.sublime-settings",
+		"/C/Users/natha/OneDrive/Dev/Tools/Softwares/Sublime_Text/Data/Packages/User/Default.sublime-keymap",
+		"/C/Users/natha/OneDrive/Dev/Tools/Softwares/Sublime_Text/Data/Packages/OmniSharp/OmniSharpSublime.sublime-settings",
+		"/C/Users/natha/OneDrive/Dev/Projects/yukisando.github.io/Portfolio/index.html",
+		"/C/Users/natha/OneDrive/Dev/Tools/Scripts/shell-aliases.cmd",
+		"/C/Users/natha/OneDrive/Dev/Tools/Scripts/Tool_installer.bat",
+		"/C/Users/natha/OneDrive/Dev/Projects/yukisando.github.io/Resume/index.html",
+		"/C/Users/natha/OneDrive/Dev/Projects/yukisando.github.io/Gyry/index.html",
+		"/C/Users/natha/OneDrive/Dev/Projects/yukisando.github.io/index.html",
+		"/C/Users/natha/OneDrive/Dev/Projects/yukisando.github.io/Gyry/libs/recorder.js",
+		"/C/Users/natha/OneDrive/Dev/Projects/yukisando.github.io/.htaccess",
+		"/C/Users/natha/OneDrive/Dev/Projects/yukisando.github.io/giri.html",
+		"/C/Users/natha/OneDrive/Dev/Projects/yukisando.github.io/gyryall.html",
+		"/C/Users/natha/OneDrive/Work/Research Project/Report/Introduction.tex",
+		"/C/Users/natha/OneDrive/Dev/Projects/yukisando.github.io/portfolio.html",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Project Sydney/Assets/Scripts/Players/Character.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Project Sydney/Assets/Standard Assets/2D/Scripts/Platformer2DUserControl.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Project Sydney/Assets/Standard Assets/2D/Scripts/Platformer2DUserControl2.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Project Sydney/Sydney/Assets/Standard",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Project Sydney/Assets/2D/Scripts/Platformer2DUserControl.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Project Sydney/Assets/2D/Scripts/Platformer2DUserControl2.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/VR/VRModelPos.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/VR/VRController.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Objects/Door.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Tools/Settings.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Tools/ActivateOnStart.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Painting/Marker.cs",
+		"/c/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/VR/VRController.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Objects/Pickup.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Tools/WinningScreen.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Painting/ColorChanger.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Objects/HideOnWin.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Objects/ShowOnWin.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Tools/BlueKeyMarker.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Tools/GoldKeyMarker.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Tools/RedKeyMarker.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Tools/KeyInsert.cs",
+		"/c/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Tools/Settings.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/yukisando.github.io/resume.html",
+		"/C/Users/natha/OneDrive/Work/Research Project/Report/Discussion.tex",
+		"/C/Users/natha/OneDrive/Dev/Projects/yukisando.github.io/vendor/bootstrap/css/bootstrap.css",
+		"/C/Users/natha/OneDrive/Work/Research Project/Report/RelatedStudies.tex",
+		"/C/Users/natha/OneDrive/Work/Research Project/Report/Report.tex",
+		"/C/Users/natha/OneDrive/Work/Research Project/Report/Bibliography.tex",
+		"/C/Users/natha/OneDrive/Work/Research Project/Report/Methodology.tex",
+		"/C/Users/natha/OneDrive/Work/Research Project/Report/Structure.tex",
+		"/C/Users/natha/OneDrive/Work/Unity/Listen/Thesis/Final Project Report.tex",
+		"/C/Users/natha/OneDrive/Work/Research Project/Report/Report.log",
+		"/C/Users/natha/OneDrive/Work/Research Project/Report/Conclusion.tex",
+		"/C/Users/natha/OneDrive/Work/Research Project/Report/Abstract.tex",
+		"/C/Users/natha/OneDrive/Documents/Job/cv.tex",
+		"/C/Users/natha/OneDrive/Documents/Job/Email example",
+		"/C/Users/natha/OneDrive/Documents/Job/Ubisoft_Cover.txt",
+		"/C/Users/natha/OneDrive/Documents/Job/Riot_Cover.txt",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Objects/AI.cs",
+		"/C/Program Files/Unity/Hub/Editor/2018.1.1f1/Editor/Data/Resources/ScriptTemplates/81-C# Script-NewBehaviourScript.cs.txt",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Painting/GhostColor.cs",
+		"/c/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/JMO Assets/Cartoon FX/Demo/Assets/CFX_Demo_New.cs",
+		"/C/Users/natha/OneDrive/Work/Research Project/Report/Discussion.log",
+		"/c/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Tools/WinningScreen.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Bootybounce.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Painting/Footprint.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Objects/Paintable.cs",
+		"/C/Users/natha/AppData/Roaming/mpv/input.conf",
+		"/C/Users/natha/AppData/Roaming/mpv/inputList.txt",
+		"/C/Users/natha/OneDrive/Dev/Tools/Softwares/Sublime_Text/Data/Packages/LaTeXTools/LaTeXTools.sublime-settings",
+		"/C/Users/natha/OneDrive/Work/Research Project/Report/Related Studies.tex",
+		"/C/Users/natha/AppData/Roaming/mpv/scripts/Visualizer.lua",
+		"/C/Users/natha/OneDrive/Work/Research Project/Report/structure.tex",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/TODO.txt",
+		"/C/Users/natha/OneDrive/Work/Research Project/Report/Report new.tex",
+		"/C/Users/natha/OneDrive/Work/Research Project/Report/main_new.tex",
+		"/C/Users/natha/OneDrive/Work/Research Project/Report/example.tex",
+		"/C/Users/natha/OneDrive/Dev/Tools/Softwares/Sublime_Text/Data/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/C/Users/natha/OneDrive/Dev/Tools/Softwares/Lynx/Lynx/lynx.cfg",
+		"/C/Users/natha/OneDrive/Dev/Tools/Softwares/Lynx/Readme.txt",
+		"/C/Users/natha/OneDrive/Dev/Tools/Softwares/Lynx/lynx.cfg",
+		"/C/Users/natha/Desktop/test.html",
+		"/C/Users/natha/OneDrive/Work/Research Project/Report/main.tex",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Tools/DisplayTime.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Tools/Recorder.cs",
+		"/c/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Painting/Marker.cs",
+		"/C/Users/natha/OneDrive/Work/Research Project/Report/main.log",
+		"/C/Users/natha/OneDrive/Dev/Tools/Softwares/Lynx/readme.txt",
+		"/C/Users/natha/OneDrive/Work/Research Project/Report/main-blx.bib",
+		"/C/Users/natha/Desktop/sigchi-latex-extended-abstracts/extended-abstract.tex",
+		"/C/Users/natha/OneDrive/Work/Research Project/Report/img/footstep.png",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Objects/HideOnStart.cs",
+		"/C/Users/natha/Desktop/Test/sketch.js",
+		"/C/Users/natha/Desktop/Test/index.html",
+		"/C/Users/natha/OneDrive/Work/Research Project/Report/bib.bib",
+		"/C/Users/natha/OneDrive/Work/Research Project/Report/Repport.tex",
+		"/C/Users/natha/OneDrive/Work/Research Project/Report/Repport.log",
+		"/C/Users/natha/OneDrive/Work/Research Project/Report/Bibliography.bib",
+		"/C/Users/natha/AppData/Roaming/mpv/scripts/autoload.lua",
+		"/C/Users/natha/AppData/Roaming/mpv/scripts/EQ.lua",
+		"/C/Users/natha/AppData/Roaming/mpv/scripts/faastfwd.lua",
+		"/C/Users/natha/AppData/Roaming/mpv/scripts/autoloop.lua",
+		"/C/Users/natha/AppData/Roaming/mpv/mpv.conf",
+		"/C/Users/natha/AppData/Roaming/mpi/README.md",
+		"/C/Users/natha/AppData/Roaming/mpv/mpv-image-viewer-master/input.conf",
+		"/C/Users/natha/AppData/Roaming/mpv/input-image.conf",
+		"/C/Users/natha/AppData/Roaming/mpv/scripts/image.lua",
+		"/C/Users/natha/OneDrive/Dev/Conf/Windows/sf/SFkeyboard.klc",
+		"/C/Users/natha/OneDrive/Work/Research Project/Report/Example.tex",
+		"/C/Users/natha/OneDrive/Dev/Tools/Softwares/pdf/SumatraPDF-settings.txt",
+		"/C/Users/natha/OneDrive/Dev/Tools/Softwares/Sublime_Text/Data/Packages/OmniSharp/PrebuiltOmniSharpServer/config.json",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/BDO",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Ez",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Screenshot/Editor/EzSS_Editor.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/VR/BodyRot.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Objects/Rotator.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Tools/MazeSetup.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Tools/RotationLock.cs",
+		"/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Tools/HideOnStart.cs",
+		"/c/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Objects/AI.cs"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 282.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"startScale",
+			"GetComponent<Renderer>()",
+			"\n    {",
+			"\n        {",
+			"\n    {"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/natha/OneDrive/Dev/Projects/Unity/Inkwell/Assets/Scripts/Objects/Rotator.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 315,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								312,
+								312
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 129.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 174.0
+	},
+	"output.find_results":
+	{
+		"height": 403.0
+	},
+	"output.variable_get":
+	{
+		"height": 174.0
+	},
+	"pinned_build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"project": "Unity.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"resu",
+				"yukisando.github.io\\Resume\\index.html"
+			],
+			[
+				"gyry",
+				"yukisando.github.io\\Gyry\\index.html"
+			],
+			[
+				"resum",
+				"yukisando.github.io\\Resume\\index.html"
+			],
+			[
+				"resume",
+				"yukisando.github.io\\Resume\\index.html"
+			],
+			[
+				"model",
+				"Scripts\\VR\\VRModelPos.cs"
+			],
+			[
+				"sett",
+				"Scripts\\Tools\\Settings.cs"
+			],
+			[
+				"doo",
+				"Scripts\\Objects\\Door.cs"
+			],
+			[
+				"control",
+				"Scripts\\VR\\VRController.cs"
+			],
+			[
+				"con",
+				"Scripts\\Tools\\ActivateOnStart.cs"
+			],
+			[
+				"pick",
+				"Scripts\\Objects\\Pickup.cs"
+			],
+			[
+				"mark",
+				"Scripts\\Painting\\Marker.cs"
+			],
+			[
+				"vrc",
+				"Scripts\\VR\\VRController.cs"
+			],
+			[
+				"win",
+				"Scripts\\Tools\\WinningScreen.cs"
+			],
+			[
+				"marker",
+				"Scripts\\Painting\\Marker.cs"
+			],
+			[
+				"door",
+				"Scripts\\Objects\\Door.cs"
+			],
+			[
+				"show",
+				"Scripts\\Objects\\ShowOnWin.cs"
+			],
+			[
+				"red",
+				"Scripts\\Tools\\RedKeyMarker.cs"
+			],
+			[
+				"gold",
+				"Scripts\\Tools\\GoldKeyMarker.cs"
+			],
+			[
+				"blu",
+				"Scripts\\Tools\\BlueKeyMarker.cs"
+			],
+			[
+				"set",
+				"Scripts\\Tools\\Settings.cs"
+			],
+			[
+				"keys",
+				"Scripts\\Tools\\KeyInsert.cs"
+			],
+			[
+				"inde",
+				"yukisando.github.io\\index.html"
+			],
+			[
+				"port",
+				"yukisando.github.io\\portfolio.html"
+			],
+			[
+				"res",
+				"yukisando.github.io\\resume.html"
+			],
+			[
+				"index",
+				"yukisando.github.io\\index.html"
+			],
+			[
+				"rela",
+				"Research Project\\Report\\RelatedStudies.tex"
+			],
+			[
+				"disc",
+				"Research Project\\Report\\Discussion.tex"
+			],
+			[
+				"por",
+				"yukisando.github.io\\portfolio.html"
+			],
+			[
+				"bib",
+				"Research Project\\Report\\Bibliography.tex"
+			],
+			[
+				"dis",
+				"Research Project\\Report\\Discussion.tex"
+			],
+			[
+				"meth",
+				"Research Project\\Report\\Methodology.tex"
+			],
+			[
+				"struc",
+				"Research Project\\Report\\Structure.tex"
+			],
+			[
+				"stur",
+				"Research Project\\Report\\Structure.tex"
+			],
+			[
+				"str",
+				"Research Project\\Report\\Structure.tex"
+			],
+			[
+				"sutr",
+				"Research Project\\Report\\Structure.tex"
+			],
+			[
+				"met",
+				"Research Project\\Report\\Methodology.tex"
+			],
+			[
+				"repo",
+				"Research Project\\Report\\Report.tex"
+			],
+			[
+				"relat",
+				"Research Project\\Report\\RelatedStudies.tex"
+			],
+			[
+				"concl",
+				"Research Project\\Report\\Conclusion.tex"
+			],
+			[
+				"cons",
+				"Scripts\\Tools\\ActivateOnStart.cs"
+			],
+			[
+				"bibi",
+				"Research Project\\Report\\Bibliography.tex"
+			],
+			[
+				"metho",
+				"Research Project\\Report\\Methodology.tex"
+			],
+			[
+				"intr",
+				"Research Project\\Report\\Introduction.tex"
+			],
+			[
+				"abs",
+				"Research Project\\Report\\Abstract.tex"
+			],
+			[
+				"relate",
+				"Research Project\\Report\\RelatedStudies.tex"
+			],
+			[
+				"intro",
+				"Research Project\\Report\\Introduction.tex"
+			],
+			[
+				"abstr",
+				"Research Project\\Report\\Abstract.tex"
+			],
+			[
+				"ab",
+				"Research Project\\Report\\Abstract.tex"
+			],
+			[
+				"bi",
+				"Research Project\\Report\\Bibliography.tex"
+			],
+			[
+				"gho",
+				"Scripts\\Painting\\GhostColor.cs"
+			],
+			[
+				"ghost",
+				"Scripts\\Painting\\GhostColor.cs"
+			],
+			[
+				"disuc",
+				"Research Project\\Report\\Discussion.tex"
+			],
+			[
+				"pi",
+				"Scripts\\Objects\\Pickup.cs"
+			],
+			[
+				"foot",
+				"Scripts\\Painting\\Footprint.cs"
+			],
+			[
+				"paitn",
+				"Scripts\\Objects\\Paintable.cs"
+			],
+			[
+				"discu",
+				"Research Project\\Report\\Discussion.tex"
+			],
+			[
+				"color",
+				"Scripts\\Painting\\ColorChanger.cs"
+			],
+			[
+				"rec",
+				"Scripts\\Tools\\Recorder.cs"
+			],
+			[
+				"sh",
+				"Scripts\\Objects\\ShowOnWin.cs"
+			],
+			[
+				"acti",
+				"Scripts\\Tools\\ActivateOnStart.cs"
+			],
+			[
+				"shw",
+				"Scripts\\Objects\\ShowOnWin.cs"
+			],
+			[
+				"hide",
+				"Scripts\\Objects\\HideOnStart.cs"
+			],
+			[
+				"pic",
+				"Scripts\\Objects\\Pickup.cs"
+			],
+			[
+				"disl",
+				"Tools\\DisplayTime.cs"
+			],
+			[
+				"colo",
+				"Painting\\ColorChanger.cs"
+			],
+			[
+				"winn",
+				"Tools\\WinningScreen.cs"
+			],
+			[
+				"rotat",
+				"Objects\\Rotator.cs"
+			],
+			[
+				"rota",
+				"Tools\\RotationLock.cs"
+			],
+			[
+				"maz",
+				"Scripts\\MazeSetup.cs"
+			],
+			[
+				"touch",
+				"Scripts\\TouchPaint.cs"
+			],
+			[
+				"prox",
+				"ProximityDetector.cs"
+			],
+			[
+				"gm",
+				"Scripts\\World\\GameMaster.cs"
+			],
+			[
+				"playr",
+				"Scripts\\Player\\PlayerController.cs"
+			],
+			[
+				"playc",
+				"Scripts\\Player\\PlayerCollide.cs"
+			],
+			[
+				"time",
+				"Scripts\\Effects\\SimpleTimer.cs"
+			],
+			[
+				"collide",
+				"Scripts\\Player\\PlayerCollide.cs"
+			],
+			[
+				"sound",
+				"Scripts\\UI\\SoundEffects.cs"
+			],
+			[
+				"music",
+				"Scripts\\UI\\MusicController.cs"
+			],
+			[
+				"placol",
+				"Scripts\\Player\\PlayerCollide.cs"
+			],
+			[
+				"player",
+				"Scripts\\Player\\PlayerController.cs"
+			],
+			[
+				"game",
+				"Scripts\\World\\GameMaster.cs"
+			],
+			[
+				"invisi",
+				"Scripts\\Effects\\Invisible.cs"
+			],
+			[
+				"wind",
+				"Scripts\\Effects\\Wind.cs"
+			],
+			[
+				"colli",
+				"Scripts\\Player\\PlayerCollide.cs"
+			],
+			[
+				"play",
+				"Scripts\\Player\\PlayerController.cs"
+			],
+			[
+				"moving",
+				"Scripts\\Effects\\MovingObject.cs"
+			],
+			[
+				"coll",
+				"Scripts\\Player\\PlayerCollide.cs"
+			],
+			[
+				"gam",
+				"Scripts\\World\\GameMaster.cs"
+			],
+			[
+				"musi",
+				"Scripts\\UI\\MusicController.cs"
+			],
+			[
+				"invi",
+				"Scripts\\Effects\\Invisible.cs"
+			],
+			[
+				"gamema",
+				"Scripts\\World\\GameMaster.cs"
+			],
+			[
+				"colid",
+				"Scripts\\Player\\PlayerCollide.cs"
+			],
+			[
+				"playe",
+				"Scripts\\Player\\PlayerController.cs"
+			],
+			[
+				"ismo",
+				"Scripts\\World\\isMoving.cs"
+			],
+			[
+				"ismov",
+				"Lua\\LoveToWindows\\love-android-sdl2\\love\\src\\jni\\love\\src\\modules\\font\\Vera.ttf.h"
+			],
+			[
+				"placo",
+				"Scripts\\Player\\PlayerCollide.cs"
+			],
+			[
+				"force",
+				"Scripts\\Player\\forceBar.cs"
+			],
+			[
+				"gamem",
+				"Scripts\\World\\GameMaster.cs"
+			],
+			[
+				"colide",
+				"Scripts\\Player\\PlayerCollide.cs"
+			],
+			[
+				"gamemas",
+				"Scripts\\World\\GameMaster.cs"
+			],
+			[
+				"ismove",
+				"Lua\\LoveToWindows\\love-android-sdl2\\love\\src\\jni\\love\\src\\modules\\font\\Vera.ttf.h"
+			],
+			[
+				"bootstr",
+				"yukisando.github.io\\vendor\\bootstrap\\css\\bootstrap.min.css"
+			],
+			[
+				"resue",
+				"yukisando.github.io\\resume.html"
+			],
+			[
+				"ind",
+				"yukisando.github.io\\index.html"
+			],
+			[
+				"portf",
+				"yukisando.github.io\\portfolio.html"
+			],
+			[
+				"main",
+				"Lua\\bob\\main.lua"
+			],
+			[
+				"conf",
+				"Lua\\bob\\conf.lua"
+			],
+			[
+				"finatex",
+				"Final Project Report.tex"
+			],
+			[
+				"fin",
+				"Final Project Report.lof"
+			],
+			[
+				"final",
+				"Final Project Report.bbl"
+			],
+			[
+				"fina",
+				"Appendices\\Code\\Tools\\FadeInAndOut.cs"
+			],
+			[
+				"appe",
+				"Work\\Chapters\\Appendix_full.tex"
+			],
+			[
+				"ap",
+				"Work\\Chapters\\Appendix_full.tex"
+			],
+			[
+				"fna",
+				"Scripts\\Tools\\FadeInAndOut.cs"
+			],
+			[
+				"titl",
+				"Work\\Chapters\\Title.tex"
+			],
+			[
+				"tit",
+				"Work\\Chapters\\Title.tex"
+			],
+			[
+				"title",
+				"Work\\Chapters\\Title.tex"
+			],
+			[
+				"app",
+				"Work\\Chapters\\Appendix.tex"
+			],
+			[
+				"ppr",
+				"Work\\ppr.tex"
+			],
+			[
+				"fi",
+				"Work\\Final Project Report.tex"
+			],
+			[
+				"bold",
+				"Dev\\Tools\\Softwares\\Sublime_Text\\Data\\Packages\\LaTeXTools\\Text boldface.sublime-snippet"
+			],
+			[
+				"wand",
+				"Scripts\\VR\\WandController.cs"
+			],
+			[
+				"tuto",
+				"Scripts\\VR\\Tutorial.cs"
+			],
+			[
+				"move",
+				"Scripts\\VR\\VRMove.cs"
+			],
+			[
+				"ai.c",
+				"Scripts\\AI\\AI.cs"
+			],
+			[
+				"ai",
+				"Dev\\temp\\Unity\\Apple Fight\\Library\\AssetImportState"
+			],
+			[
+				"am.",
+				"Scripts\\Tools\\AM.cs"
+			],
+			[
+				"am.c",
+				"Scripts\\Tools\\AM.cs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
