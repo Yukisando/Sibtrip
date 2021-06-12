@@ -1,8 +1,16 @@
-﻿using UnityEngine;
+﻿#region
 
-public class WinCheck : MonoBehaviour {
+using UnityEngine;
 
-    void Update () {
-        if(Settings.win) transform.GetChild(0).gameObject.SetActive(true);
-	}
+#endregion
+public class WinCheck : MonoBehaviour
+{
+
+    private void Update()
+    {
+        if (Settings.win)
+        {
+            transform.GetChild(0).gameObject.SetActive(true);
+        }
+    }
 }

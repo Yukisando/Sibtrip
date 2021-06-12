@@ -1,8 +1,13 @@
-﻿using UnityEngine;
+﻿#region
 
-public class AutoDestroy : MonoBehaviour {
+using UnityEngine;
 
-    void Start() {
+#endregion
+public class AutoDestroy : MonoBehaviour
+{
+
+    private void Start()
+    {
         Destroy(gameObject, 5);
     }
 }

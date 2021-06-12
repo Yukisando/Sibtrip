@@ -1,17 +1,25 @@
-﻿using UnityEngine;
+﻿#region
 
-public class DisplayPets : MonoBehaviour {
+using UnityEngine;
 
-    private void Start() {
+#endregion
+public class DisplayPets : MonoBehaviour
+{
+
+    private void Start()
+    {
         GetComponent<Animator>().SetBool("Cage", false);
 
-        if(Settings.catsFreed && name == "Cats") {
+        if (Settings.catsFreed && name == "Cats")
+        {
             GetComponent<SpriteRenderer>().enabled = true;
         }
-        if(Settings.dogsFreed && name == "Dogs") {
+        if (Settings.dogsFreed && name == "Dogs")
+        {
             GetComponent<SpriteRenderer>().enabled = true;
         }
-        if(Settings.melonFreed && name == "Melon") {
+        if (Settings.melonFreed && name == "Melon")
+        {
             GetComponent<SpriteRenderer>().enabled = true;
         }
     }

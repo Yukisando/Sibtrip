@@ -1,6 +1,10 @@
-﻿using UnityEngine;
+﻿#region
 
-public class Rupert : MonoBehaviour {
+using UnityEngine;
+
+#endregion
+public class Rupert : MonoBehaviour
+{
     private EnemyMovement enemyMovement;
     private Transform rubbish;
     private Vibrator vibrator;
@@ -26,14 +30,16 @@ public class Rupert : MonoBehaviour {
     private float reloadedVomit;
     public GameObject vomitPrefab;
 
-    private void Awake() {
+    private void Awake()
+    {
         rubbish = GameObject.FindGameObjectWithTag("rubbish").transform;
         enemyMovement = GetComponent<EnemyMovement>();
         sr = GetComponent<SpriteRenderer>();
         vibrator = transform.parent.GetComponent<Vibrator>();
     }
 
-    private void Start() {
+    private void Start()
+    {
         initFireRate = fireRate;
         reloaded = fireRate;
         reloadedVomit = fireRate;
@@ -43,33 +49,40 @@ public class Rupert : MonoBehaviour {
         sr.sprite = rupertSprites[0];
     }
 
-    private void Update() {
+    private void Update()
+    {
         health = EnemyStats.health;
         stage = EnemyStats.stage;
 
-        if (enemyMovement.docked) {
+        if (enemyMovement.docked)
+        {
             Fire();
         }
 
-        if (health < 70.0f) {
+        if (health < 70.0f)
+        {
             EnemyStats.stage = 1.5f;
         }
-        if (health < 30.0f) {
+        if (health < 30.0f)
+        {
             EnemyStats.stage = 2.5f;
         }
-        if (health <= 0.0f) {
+        if (health <= 0.0f)
+        {
             EnemyStats.stage = 3.5f;
         }
 
-        if (EnemyStats.stage == 1.5f) {
+        if (EnemyStats.stage == 1.5f)
+        {
             enemyMovement.speed = spawnSpeed + 4;
-            fireRate = (initFireRate / 3) * 1.5f;
+            fireRate = initFireRate / 3 * 1.5f;
             vibrator.vibrationStrength = 0.03f;
             sr.sprite = rupertSprites[1];
             EnemyStats.stage = 2.0f;
         }
 
-        if (EnemyStats.stage == 2.5f) {
+        if (EnemyStats.stage == 2.5f)
+        {
             enemyMovement.speed = spawnSpeed + 12;
             enemyMovement.waitFor = spawnWait + 2;
             fireRate = 1f;
@@ -78,7 +91,8 @@ public class Rupert : MonoBehaviour {
             EnemyStats.stage = 3.0f;
         }
 
-        if (EnemyStats.stage == 3.5f) {
+        if (EnemyStats.stage == 3.5f)
+        {
             transform.parent.gameObject.SetActive(false);
             Instantiate(deathPrefab, transform.position, transform.rotation, rubbish);
             PlayerPrefs.SetInt("dogsFreed", 1);
@@ -86,14 +100,17 @@ public class Rupert : MonoBehaviour {
         }
     }
 
-    private void Fire() {
+    private void Fire()
+    {
         reloaded -= Time.deltaTime;
-        if (reloaded <= 0) {
+        if (reloaded <= 0)
+        {
             reloaded = fireRate;
             int randomPick = 0;
             randomPick = Random.Range(0, 3);
 
-            switch (randomPick) {
+            switch (randomPick)
+            {
                 case 0:
                     Instantiate(clownPrefab, new Vector3(transform.position.x, transform.position.y - 2f, transform.position.z), transform.rotation, rubbish);
                     break;
@@ -108,21 +125,25 @@ public class Rupert : MonoBehaviour {
                     break;
             }
         }
-        if (EnemyStats.stage >= 3) {
+        if (EnemyStats.stage >= 3)
+        {
             Vomit();
         }
     }
 
-    private void Vomit() {
+    private void Vomit()
+    {
         reloadedVomit -= Time.deltaTime;
-        if (reloadedVomit <= 0 && enemyMovement.docked) {
+        if (reloadedVomit <= 0 && enemyMovement.docked)
+        {
             reloadedVomit = fireRate + vomitPrefab.GetComponent<VomitActivator>().vomitDuration + 2;
 
             Instantiate(vomitPrefab, new Vector3(-10.7f, transform.position.y - 2f, -.2f), Quaternion.identity, rubbish);
         }
     }
 
-    private void OnEnable() {
+    private void OnEnable()
+    {
         EnemyStats.health = 100.0f;
     }
 }

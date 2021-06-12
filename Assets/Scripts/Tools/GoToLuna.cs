@@ -1,9 +1,13 @@
-﻿using UnityEngine;
+﻿#region
+
+using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class GoToLuna : MonoBehaviour {
-    Image image;
+#endregion
+public class GoToLuna : MonoBehaviour
+{
+    private Image image;
 
     private void Awake()
     {
@@ -12,12 +16,21 @@ public class GoToLuna : MonoBehaviour {
 
     private void Update()
     {
-        if (LevelUnlocker.lunaLocked) image.color = Color.red;
-        else image.color = Color.green;
+        if (LevelUnlocker.lunaLocked)
+        {
+            image.color = Color.red;
+        }
+        else
+        {
+            image.color = Color.green;
+        }
     }
 
     public void LoadLuna()
     {
-        if (!LevelUnlocker.lunaLocked) SceneManager.LoadScene("Luna Park");
+        if (!LevelUnlocker.lunaLocked)
+        {
+            SceneManager.LoadScene("Luna Park");
+        }
     }
 }

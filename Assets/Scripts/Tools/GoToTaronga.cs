@@ -1,9 +1,13 @@
-﻿using UnityEngine;
+﻿#region
+
+using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class GoToTaronga : MonoBehaviour {
-    Image image;
+#endregion
+public class GoToTaronga : MonoBehaviour
+{
+    private Image image;
 
     private void Awake()
     {
@@ -12,12 +16,21 @@ public class GoToTaronga : MonoBehaviour {
 
     private void Update()
     {
-        if (LevelUnlocker.tarongaLocked) image.color = Color.red;
-        else image.color = Color.green;
+        if (LevelUnlocker.tarongaLocked)
+        {
+            image.color = Color.red;
+        }
+        else
+        {
+            image.color = Color.green;
+        }
     }
 
     public void LoadTaronga()
     {
-        if (!LevelUnlocker.tarongaLocked) SceneManager.LoadScene("Taronga");
+        if (!LevelUnlocker.tarongaLocked)
+        {
+            SceneManager.LoadScene("Taronga");
+        }
     }
 }

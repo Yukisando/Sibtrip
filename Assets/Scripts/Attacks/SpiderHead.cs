@@ -1,6 +1,10 @@
-﻿using UnityEngine;
+﻿#region
 
-public class SpiderHead : MonoBehaviour {
+using UnityEngine;
+
+#endregion
+public class SpiderHead : MonoBehaviour
+{
 
     [Header("Head")]
     public float health = 200.0f;
@@ -20,48 +24,58 @@ public class SpiderHead : MonoBehaviour {
     private float paulineDistance;
     private float adrienDistance;
 
-    private void Awake() {
+    private void Awake()
+    {
         sr = GetComponent<SpriteRenderer>();
         rubbish = GameObject.FindGameObjectWithTag("rubbish").transform;
     }
 
-    private void Start() {
+    private void Start()
+    {
         sr.sprite = sprites[0];
         EnemyStats.health = health;
         initattackRate = attackRate;
         reloaded = 1;
     }
 
-    private void Update() {
+    private void Update()
+    {
         health = EnemyStats.health;
         closestPlayer = FacePlayer();
-        if (closestPlayer.gameObject.activeSelf) {
+        if (closestPlayer.gameObject.activeSelf)
+        {
             Attack();
         }
 
-        if (health < 150.0f) {
+        if (health < 150.0f)
+        {
             EnemyStats.stage = 1.5f;
         }
-        if (health < 100.0f) {
+        if (health < 100.0f)
+        {
             EnemyStats.stage = 2.5f;
         }
-        if (health <= 50.0f) {
+        if (health <= 50.0f)
+        {
             EnemyStats.stage = 3.5f;
         }
 
-        if (EnemyStats.stage == 1.5f) {
-            attackRate = (initattackRate / 3) * 1.5f;
+        if (EnemyStats.stage == 1.5f)
+        {
+            attackRate = initattackRate / 3 * 1.5f;
             sr.sprite = sprites[1];
             EnemyStats.stage = 2.0f;
         }
 
-        if (EnemyStats.stage == 2.5f) {
+        if (EnemyStats.stage == 2.5f)
+        {
             attackRate = 1f;
             sr.sprite = sprites[2];
             EnemyStats.stage = 3.0f;
         }
 
-        if (EnemyStats.stage == 3.5f) {
+        if (EnemyStats.stage == 3.5f)
+        {
             transform.parent.gameObject.SetActive(false);
             Instantiate(deathPrefab, transform.position, transform.rotation, rubbish);
             PlayerPrefs.SetInt("catsFreed", 1);
@@ -69,30 +83,38 @@ public class SpiderHead : MonoBehaviour {
         }
     }
 
-    private void Attack() {
+    private void Attack()
+    {
         reloaded -= Time.deltaTime;
-        if (reloaded <= 0) {
+        if (reloaded <= 0)
+        {
             Instantiate(webPrefab, transform.position, Quaternion.identity, rubbish);
             reloaded = attackRate;
         }
     }
 
-    private Transform FacePlayer() {
+    private Transform FacePlayer()
+    {
         Transform closestPlayer;
         paulineDistance = Vector2.Distance(pauline.position, transform.position);
         adrienDistance = Vector2.Distance(adrien.position, transform.position);
 
-        if (paulineDistance < adrienDistance) {
+        if (paulineDistance < adrienDistance)
+        {
             closestPlayer = pauline;
-        } else {
+        }
+        else
+        {
             closestPlayer = adrien;
         }
 
-        if (!pauline.gameObject.activeSelf) {
+        if (!pauline.gameObject.activeSelf)
+        {
             closestPlayer = adrien;
         }
 
-        if (!adrien.gameObject.activeSelf) {
+        if (!adrien.gameObject.activeSelf)
+        {
             closestPlayer = pauline;
         }
 
@@ -103,7 +125,8 @@ public class SpiderHead : MonoBehaviour {
         return closestPlayer;
     }
 
-    private void OnEnable() {
+    private void OnEnable()
+    {
         EnemyStats.health = health;
     }
 }

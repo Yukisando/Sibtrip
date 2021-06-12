@@ -1,7 +1,11 @@
-﻿using UnityEngine;
+﻿#region
+
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GoHome : MonoBehaviour {
+#endregion
+public class GoHome : MonoBehaviour
+{
 
     public void LoadHome()
     {

@@ -1,11 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿#region
+
 using UnityEngine;
 
-public class CubeGismo : MonoBehaviour {
-    public Color color = new Color(1,0,0,0.5f);
+#endregion
+public class CubeGismo : MonoBehaviour
+{
+    public Color color = new Color(1, 0, 0, 0.5f);
 
-    void OnDrawGizmosSelected()
+    private void OnDrawGizmosSelected()
     {
         Gizmos.color = color;
         Gizmos.DrawCube(transform.position, new Vector3(1, 1, 1));

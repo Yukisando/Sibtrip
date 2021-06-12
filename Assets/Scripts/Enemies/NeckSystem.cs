@@ -1,15 +1,20 @@
-﻿using UnityEngine;
+﻿#region
 
-public class NeckSystem : MonoBehaviour {
+using UnityEngine;
+
+#endregion
+public class NeckSystem : MonoBehaviour
+{
     public Transform neckBase;
-    LineRenderer lr;
+    private LineRenderer lr;
 
     private void Start()
     {
         lr = GetComponent<LineRenderer>();
     }
 
-    void Update () {
+    private void Update()
+    {
         lr.SetPosition(0, transform.position);
         lr.SetPosition(1, neckBase.position);
     }

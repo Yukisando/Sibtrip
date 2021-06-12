@@ -1,16 +1,20 @@
-﻿using UnityEngine;
+﻿#region
 
-public class Fireball : MonoBehaviour {
+using UnityEngine;
+
+#endregion
+public class Fireball : MonoBehaviour
+{
     public GameObject hitMarker;
     public float fireballDamage = 2.0f;
-    Transform rubbish;
+    private Transform rubbish;
 
     private void Start()
     {
         rubbish = GameObject.FindGameObjectWithTag("rubbish").transform;
     }
 
-    void OnTriggerEnter2D(Collider2D coll)
+    private void OnTriggerEnter2D(Collider2D coll)
     {
         if (coll.gameObject.tag == "Pauline")
         {
@@ -31,7 +35,7 @@ public class Fireball : MonoBehaviour {
         }
     }
 
-    void OnBecameInvisible()
+    private void OnBecameInvisible()
     {
         Destroy(gameObject, 3);
     }

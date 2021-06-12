@@ -1,16 +1,22 @@
-﻿using UnityEngine;
+﻿#region
 
-public class SpriteOffset: MonoBehaviour {
+using UnityEngine;
+
+#endregion
+public class SpriteOffset : MonoBehaviour
+{
     public float speed = 3.0f;
-    Renderer rd;
+    private Renderer rd;
 
     // Use this for initialization
-    void Start() {
+    private void Start()
+    {
         rd = GetComponent<Renderer>();
     }
 
     // Update is called once per frame
-    void Update() {
+    private void Update()
+    {
         rd.material.mainTextureOffset = new Vector2(Time.time * speed, 0);
     }
 }

@@ -1,6 +1,10 @@
-﻿using UnityEngine;
+﻿#region
 
-public class EnemyMovement : MonoBehaviour {
+using UnityEngine;
+
+#endregion
+public class EnemyMovement : MonoBehaviour
+{
 
     [Header("Movements")]
     public GameObject positions;
@@ -20,7 +24,8 @@ public class EnemyMovement : MonoBehaviour {
     private Transform[] targets;
     public int targetIndex = 0;
 
-    private void Start() {
+    private void Start()
+    {
         timer = waitFor;
         parentPosition = transform.parent.transform.position;
         targets = positions.GetComponentsInChildren<Transform>();
@@ -29,43 +34,56 @@ public class EnemyMovement : MonoBehaviour {
     }
 
     // Update is called once per frame
-    private void Update() {
+    private void Update()
+    {
         isDocked = docked;
         isReached = destinationReached;
 
-        if (!(Vector3.Distance(transform.position, destination) < 0.1f)) {
+        if (!(Vector3.Distance(transform.position, destination) < 0.1f))
+        {
             docked = false;
             transform.position = Vector3.MoveTowards(transform.position, destination, speed * Time.deltaTime);
-        } else {
+        }
+        else
+        {
             destination = GetDestination();
             SetNextDestination();
         }
     }
 
-    private Vector3 GetDestination() {
+    private Vector3 GetDestination()
+    {
         destinationReached = false;
         return targets[GetNextDestinationIndex()].position;
     }
 
-    private int GetNextDestinationIndex() {
+    private int GetNextDestinationIndex()
+    {
         return targetIndex;
     }
 
-    private void SetNextDestination() {
-        if (timer <= 0.0f || waitFor == 0) {
-            if (Vector3.Distance(transform.position, targets[targetIndex].position) < 0.1f) {
+    private void SetNextDestination()
+    {
+        if (timer <= 0.0f || waitFor == 0)
+        {
+            if (Vector3.Distance(transform.position, targets[targetIndex].position) < 0.1f)
+            {
                 destinationReached = true;
                 timer = waitFor;
                 targetIndex++;
             }
-            if (targetIndex >= targets.Length) {
+            if (targetIndex >= targets.Length)
+            {
                 targetIndex = Random.Range(0, targets.Length);
             }
 
-            if (Vector3.Distance(parentPosition, targets[targetIndex].position) < 0.1f && !includeParentPosition) {
+            if (Vector3.Distance(parentPosition, targets[targetIndex].position) < 0.1f && !includeParentPosition)
+            {
                 targetIndex++;
             }
-        } else {
+        }
+        else
+        {
             docked = true;
             timer -= Time.deltaTime;
         }

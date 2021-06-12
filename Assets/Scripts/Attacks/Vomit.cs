@@ -1,16 +1,21 @@
-﻿using UnityEngine;
+﻿#region
 
-public class Vomit: MonoBehaviour {
+using UnityEngine;
+
+#endregion
+public class Vomit : MonoBehaviour
+{
     public GameObject hitMarker;
     public float vomitDamage = 5.0f;
 
-    Transform rubbish;
+    private Transform rubbish;
 
-    private void Awake() {
+    private void Awake()
+    {
         rubbish = GameObject.FindGameObjectWithTag("rubbish").transform;
     }
 
-    void OnTriggerEnter2D(Collider2D coll)
+    private void OnTriggerEnter2D(Collider2D coll)
     {
         if (coll.gameObject.tag == "Pauline")
         {

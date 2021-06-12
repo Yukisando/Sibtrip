@@ -1,34 +1,48 @@
-﻿using UnityEngine;
+﻿#region
 
-public class AdrienMovementTrack : MonoBehaviour {
+using UnityEngine;
+
+#endregion
+public class AdrienMovementTrack : MonoBehaviour
+{
     public Transform[] slots;
 
-    int currentSlot;
-    bool moving;
+    private int currentSlot;
+    private bool moving;
 
     // Use this for initialization
-    void Start() {
+    private void Start()
+    {
         transform.position = slots[0].GetComponent<Occupied>().freeSlot;
     }
 
     // Update is called once per frame
-    void Update() {
+    private void Update()
+    {
         float move = Input.GetAxisRaw("Vertical");
 
-        if(!moving && move != 0) {
+        if (!moving && move != 0)
+        {
             GoToNextSlot(move);
             moving = true;
         }
-        if(move == 0) moving = false;
+        if (move == 0)
+        {
+            moving = false;
+        }
 
-        if(slots[currentSlot].GetComponent<Occupied>().occupiedBy == "Pauline")
+        if (slots[currentSlot].GetComponent<Occupied>().occupiedBy == "Pauline")
+        {
             transform.position = slots[currentSlot].GetComponent<Occupied>().freeSlot;
+        }
     }
 
-    void GoToNextSlot(float direction) {
+    private void GoToNextSlot(float direction)
+    {
         int nextMove = currentSlot - (int)direction;
 
-        if(nextMove < slots.Length && nextMove >= 0) {
+        if (nextMove < slots.Length && nextMove >= 0)
+        {
             transform.position = slots[nextMove].GetComponent<Occupied>().freeSlot;
             currentSlot = nextMove;
         }

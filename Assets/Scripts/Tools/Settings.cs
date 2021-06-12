@@ -1,9 +1,13 @@
-﻿using System.Collections;
+﻿#region
+
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+#endregion
 [RequireComponent(typeof(AudioSource))]
-public class Settings : MonoBehaviour {
+public class Settings : MonoBehaviour
+{
     public bool resetGame = false;
     public GameObject pauline;
     public GameObject adrien;
@@ -23,69 +27,95 @@ public class Settings : MonoBehaviour {
     private bool paulineRespawned;
     private bool adrienRespawned;
 
-    private void Awake() {
-        if (PlayerPrefs.GetInt("dogsFreed") == 1) {
+    private void Awake()
+    {
+        if (PlayerPrefs.GetInt("dogsFreed") == 1)
+        {
             dogsFreed = true;
-        } else {
+        }
+        else
+        {
             dogsFreed = false;
         }
 
-        if (PlayerPrefs.GetInt("catsFreed") == 1) {
+        if (PlayerPrefs.GetInt("catsFreed") == 1)
+        {
             catsFreed = true;
-        } else {
+        }
+        else
+        {
             catsFreed = false;
         }
 
-        if (PlayerPrefs.GetInt("melonFreed") == 1) {
+        if (PlayerPrefs.GetInt("melonFreed") == 1)
+        {
             melonFreed = true;
-        } else {
+        }
+        else
+        {
             melonFreed = false;
         }
 
         deathSounds = GetComponent<AudioSource>();
     }
 
-    private void Start() {
+    private void Start()
+    {
         deathSounds.clip = clips[0];
         friendlyFire = _friendlyFire;
     }
 
-    private void Update() {
-        if (resetGame) ResetGame();
-        if (!pauline.activeSelf && !adrien.activeSelf && !replay) {
+    private void Update()
+    {
+        if (resetGame)
+        {
+            ResetGame();
+        }
+        if (!pauline.activeSelf && !adrien.activeSelf && !replay)
+        {
             EnemyStats.health = EnemyStats.initHealth;
             EnemyStats.stage = 1.0f;
             SceneManager.LoadScene("Map");
         }
 
-        if (Input.GetKeyDown(KeyCode.M)) {
+        if (Input.GetKeyDown(KeyCode.M))
+        {
             SceneManager.LoadScene("Map");
         }
 
-        if (!pauline.activeSelf) {
-            if (!paulineRespawned) {
+        if (!pauline.activeSelf)
+        {
+            if (!paulineRespawned)
+            {
                 paulineRespawned = true;
                 StartCoroutine(RespawnPauline());
             }
         }
 
-        if (!adrien.activeSelf) {
-            if (!adrienRespawned) {
+        if (!adrien.activeSelf)
+        {
+            if (!adrienRespawned)
+            {
                 adrienRespawned = true;
                 StartCoroutine(RespawnAdrien());
             }
         }
 
-        if (EnemyStats.health <= 0.0f) {
+        if (EnemyStats.health <= 0.0f)
+        {
             win = true;
-        } else {
+        }
+        else
+        {
             win = false;
         }
     }
 
-    private IEnumerator RespawnPauline() {
+    private IEnumerator RespawnPauline()
+    {
         deathSounds.clip = clips[1];
-        if (!deathSounds.isPlaying) {
+        if (!deathSounds.isPlaying)
+        {
             deathSounds.Play();
         }
 
@@ -95,9 +125,11 @@ public class Settings : MonoBehaviour {
         paulineRespawned = false;
     }
 
-    private IEnumerator RespawnAdrien() {
+    private IEnumerator RespawnAdrien()
+    {
         deathSounds.clip = clips[0];
-        if (!deathSounds.isPlaying) {
+        if (!deathSounds.isPlaying)
+        {
             deathSounds.Play();
         }
 
@@ -107,7 +139,8 @@ public class Settings : MonoBehaviour {
         adrienRespawned = false;
     }
 
-    void ResetGame() {
+    private void ResetGame()
+    {
         PlayerPrefs.DeleteAll();
     }
 }
