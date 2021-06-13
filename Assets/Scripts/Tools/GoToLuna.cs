@@ -16,19 +16,12 @@ public class GoToLuna : MonoBehaviour
 
     private void Update()
     {
-        if (LevelUnlocker.lunaLocked)
-        {
-            image.color = Color.red;
-        }
-        else
-        {
-            image.color = Color.green;
-        }
+        image.color = MapSettings.lunaLocked ? Color.red : Color.green;
     }
 
     public void LoadLuna()
     {
-        if (!LevelUnlocker.lunaLocked)
+        if (!MapSettings.lunaLocked)
         {
             SceneManager.LoadScene("Luna Park");
         }

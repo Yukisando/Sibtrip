@@ -16,19 +16,12 @@ public class GoToReptile : MonoBehaviour
 
     private void Update()
     {
-        if (LevelUnlocker.reptileLocked)
-        {
-            image.color = Color.red;
-        }
-        else
-        {
-            image.color = Color.green;
-        }
+        image.color = MapSettings.reptileLocked ? Color.red : Color.green;
     }
 
     public void LoadReptile()
     {
-        if (!LevelUnlocker.reptileLocked)
+        if (!MapSettings.reptileLocked)
         {
             SceneManager.LoadScene("Reptile");
         }

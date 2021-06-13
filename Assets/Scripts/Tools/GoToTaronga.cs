@@ -16,19 +16,12 @@ public class GoToTaronga : MonoBehaviour
 
     private void Update()
     {
-        if (LevelUnlocker.tarongaLocked)
-        {
-            image.color = Color.red;
-        }
-        else
-        {
-            image.color = Color.green;
-        }
+        image.color = MapSettings.tarongaLocked ? Color.red : Color.green;
     }
 
     public void LoadTaronga()
     {
-        if (!LevelUnlocker.tarongaLocked)
+        if (!MapSettings.tarongaLocked)
         {
             SceneManager.LoadScene("Taronga");
         }

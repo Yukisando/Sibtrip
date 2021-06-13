@@ -99,14 +99,7 @@ public class SpiderHead : MonoBehaviour
         paulineDistance = Vector2.Distance(pauline.position, transform.position);
         adrienDistance = Vector2.Distance(adrien.position, transform.position);
 
-        if (paulineDistance < adrienDistance)
-        {
-            closestPlayer = pauline;
-        }
-        else
-        {
-            closestPlayer = adrien;
-        }
+        closestPlayer = paulineDistance < adrienDistance ? pauline : adrien;
 
         if (!pauline.gameObject.activeSelf)
         {

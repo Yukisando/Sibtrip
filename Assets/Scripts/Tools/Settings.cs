@@ -8,7 +8,6 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(AudioSource))]
 public class Settings : MonoBehaviour
 {
-    public bool resetGame = false;
     public GameObject pauline;
     public GameObject adrien;
     private AudioSource deathSounds;
@@ -29,32 +28,11 @@ public class Settings : MonoBehaviour
 
     private void Awake()
     {
-        if (PlayerPrefs.GetInt("dogsFreed") == 1)
-        {
-            dogsFreed = true;
-        }
-        else
-        {
-            dogsFreed = false;
-        }
+        dogsFreed = PlayerPrefs.GetInt("dogsFreed") == 1;
 
-        if (PlayerPrefs.GetInt("catsFreed") == 1)
-        {
-            catsFreed = true;
-        }
-        else
-        {
-            catsFreed = false;
-        }
+        catsFreed = PlayerPrefs.GetInt("catsFreed") == 1;
 
-        if (PlayerPrefs.GetInt("melonFreed") == 1)
-        {
-            melonFreed = true;
-        }
-        else
-        {
-            melonFreed = false;
-        }
+        melonFreed = PlayerPrefs.GetInt("melonFreed") == 1;
 
         deathSounds = GetComponent<AudioSource>();
     }
@@ -67,10 +45,7 @@ public class Settings : MonoBehaviour
 
     private void Update()
     {
-        if (resetGame)
-        {
-            ResetGame();
-        }
+
         if (!pauline.activeSelf && !adrien.activeSelf && !replay)
         {
             EnemyStats.health = EnemyStats.initHealth;
@@ -101,14 +76,7 @@ public class Settings : MonoBehaviour
             }
         }
 
-        if (EnemyStats.health <= 0.0f)
-        {
-            win = true;
-        }
-        else
-        {
-            win = false;
-        }
+        win = EnemyStats.health <= 0.0f;
     }
 
     private IEnumerator RespawnPauline()
@@ -139,8 +107,4 @@ public class Settings : MonoBehaviour
         adrienRespawned = false;
     }
 
-    private void ResetGame()
-    {
-        PlayerPrefs.DeleteAll();
-    }
 }

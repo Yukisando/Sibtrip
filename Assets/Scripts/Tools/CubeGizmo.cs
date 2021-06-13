@@ -3,7 +3,7 @@
 using UnityEngine;
 
 #endregion
-public class CubeGismo : MonoBehaviour
+public class CubeGizmo : MonoBehaviour
 {
     public Color color = new Color(1, 0, 0, 0.5f);
 

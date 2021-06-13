@@ -9,16 +9,9 @@ public class GoToMap : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Adrien" || collision.gameObject.tag == "Pauline")
+        if (collision.gameObject.CompareTag("Adrien") || collision.gameObject.CompareTag("Pauline"))
         {
-            if (SceneManager.GetActiveScene().name == "Home")
-            {
-                SceneManager.LoadScene("Map");
-            }
-            else
-            {
-                SceneManager.LoadScene("Home");
-            }
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name == "Home" ? "Map" : "Home");
         }
     }
 
@@ -26,7 +19,7 @@ public class GoToMap : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().name != "Home")
         {
-            Invoke("GoMap", 6);
+            Invoke(nameof(GoMap), 6);
         }
     }
 
