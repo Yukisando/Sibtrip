@@ -38,6 +38,8 @@ public class MapSettings : MonoBehaviour
     {
         var code = codeInputField.text;
 
+            code = code.Replace("\u200b", "");
+
         switch (code)
         {
             case "2061":
